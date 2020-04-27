@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - sonarqube_deployment_users_home: /home/vagrant
+    - sonarqube_testing_provider: vagrant
+  roles:
+    - sonarqube

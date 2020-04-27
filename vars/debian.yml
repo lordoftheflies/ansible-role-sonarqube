@@ -1,0 +1,5 @@
+---
+# roles/sonarqube/vars/debian.yml
+
+# Debian specific vars
+sonarqube_package_extension: 'deb'

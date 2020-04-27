@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - sonarqube_deployment_users_home: /root
+    - sonarqube_testing_provider: lxd
+
+  roles:
+    - sonarqube

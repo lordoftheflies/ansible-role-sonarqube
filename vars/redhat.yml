@@ -1,0 +1,4 @@
+---
+# roles/sonarqube/vars/debian.yml
+
+sonarqube_package_extension: 'rpm'
